@@ -6,4 +6,5 @@ MESSAGE(STATUS "Project Directory: ${PROJECT_SOURCE_DIR}")
 SET(CMAKE_BUILE_TYPE DEBUG)
 SET(CMAKE_C_FLAGS_DEBUG "-g -Wall")
 
-add_executable(certain_value_true src/main.c src/model/find/find_by_bin.c)
+#add_executable(certain_value_true src/main.c src/model/find/find_by_bin.c)
+add_executable(fibbo src/main.c src/base/util/datastruct/upper_random_init.c src/base/util/print_list.c)

@@ -1,14 +1,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "./model/find/find_by_bin.h"
+#include "./base/util/datastruct/upper_random_init.h"
+#include "./base/util/print_list.h"
 
 int main() {
-    int list[8];
-    for (int i = 0; i < 8; ++i) {
-        list[i] = rand();
-    }
-    int result = find(list, 9, 6);
-    printf("%d", result);
+    printList(upperRandom(10), 10);
+
     printf("first version");
 }
